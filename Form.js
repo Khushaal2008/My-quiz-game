@@ -16,7 +16,6 @@ class Form {
   
     display(){
 
-    
      this.title.html("My Quiz Game");
       this.title.position(410.5, 0);
 

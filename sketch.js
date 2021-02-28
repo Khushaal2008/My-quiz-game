@@ -1,5 +1,5 @@
 var canvas, backgroundImage;
-
+var bgImg
 var gameState = 0;
 var contestantCount;
 var allContestants;
@@ -8,6 +8,9 @@ var database;
 
 var form, contestant, game;
 
+function preload(){
+ bgImg = loadImage("background.jpg")
+}
 
 function setup(){
   canvas = createCanvas(850,400);
@@ -19,6 +22,7 @@ function setup(){
 
 
 function draw(){
+  background(bgImg)
   if(contestantCount === 4){
     game.update(1);
   }

@@ -31,7 +31,7 @@ class Game {
     play(){
       form.hide();
       background("yellow")
-        text("the name which is highlighted in green is the winner",200,200)
+      text("the green color heighlited nam is the we")
      Contestant.getPlayerInfo();
   
       if(allContestants !== undefined){
@@ -41,10 +41,10 @@ class Game {
         for(var plr in allContestants){
           
           var correctAns = "2"
-          if (correctAns === allContestants[plr].answer)
-            fill("green")
-         else
-            fill("red");
+        //  if (correctAns === allContestants[plr].answer)
+          
+        // else
+         //   fill("yellow")
           
         display_position+=30;
          textSize(15);
