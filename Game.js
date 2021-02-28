@@ -31,6 +31,7 @@ class Game {
     play(){
       form.hide();
       background("yellow")
+        text("the name which is highlighted in green is the winner",200,200)
      Contestant.getPlayerInfo();
   
       if(allContestants !== undefined){
